@@ -1,0 +1,26 @@
+.container {
+  background-color: #ecf0f1;
+}
+
+.mainContent {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.sidebarMenuComponent {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  width: 20%;
+}
+
+.recomendationsComponent {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: 20px;
+}

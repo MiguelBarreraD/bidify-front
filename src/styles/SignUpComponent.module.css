@@ -1,0 +1,102 @@
+/* SignUpComponent.module.css */
+
+.container {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #5c4397, #2489dc);
+    color: #fff;
+}
+
+.container.loaded {
+    opacity: 1; /* Visible después de cargar */
+  }
+
+.form {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    animation: fadeIn 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.button {
+    background: linear-gradient(90deg, #0064e6, #4323f9);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.signInButton {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    text-decoration: underline;
+}
+
+.signInButton:hover {
+    color: #f9d423;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

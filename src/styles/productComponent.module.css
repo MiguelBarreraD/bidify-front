@@ -1,0 +1,76 @@
+.productContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  background-color: #f5f5f5;
+  position: center;
+}
+
+/* Contenedor */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura del 100% del viewport */
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Aumentado el ancho máximo */
+  width: 100%; /* Ocupar todo el ancho disponible */
+  margin: auto;
+  padding: 40px; /* Aumentado el padding */
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas */
+.label {
+  margin-bottom: 16px; /* Aumentado el margen inferior */
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Campos de entrada */
+.input {
+  width: calc(100% - 20px);
+  padding: 12px; /* Aumentado el padding */
+  margin-top: 8px; /* Aumentado el margen superior */
+  margin-bottom: 20px; /* Aumentado el margen inferior */
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px; /* Aumentado el tamaño de fuente */
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Botón de envío */
+.submit {
+  width: 100%;
+  padding: 16px; /* Aumentado el padding */
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Aumentado el tamaño de fuente */
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #1976d2;
+}

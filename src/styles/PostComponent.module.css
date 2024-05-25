@@ -1,0 +1,32 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+  min-width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  height: fit-content;
+  width: fit-content;
+}
+
+.image {
+  max-width: 600px; 
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.details {
+  padding: 10px;
+}
+
+.productName {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.owner, .price {
+  margin: 5px 0;
+  color: #555;
+}
